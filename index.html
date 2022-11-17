@@ -6,7 +6,22 @@
 <body>
     <script> 
     alert("HELLO THERE");
+    let username = prompt("What is your name?");
+    console.log("The user's name is: ", username);
+    document.write("Hi there and welcome to my page," + username);
+
+    let response = prompt("Do you like traveling?");
+
+    if (response == "yes") { 
+     alert ("You've come to the right place!");
+    } else if (response == "no") {
+        alert ("What are you doing in my swamp!");
+    } else {
+        alert ("I'm sorry I don't seem to understand");
+    }
+
     </script>
+    
     <header>
         <h1>My travel bucketlist</h1>
     </header>
