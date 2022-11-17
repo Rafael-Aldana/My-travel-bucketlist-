@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(226, 230, 230);
+    margin: 0px;
+    padding 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(62, 62, 252);
+    height: 100px;
+}
+
+h1 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: white;
+}
+
+nav {
+    width: 70%;
+}
+
+nav a {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+img {
+    float: left;
+    width: 200px;
+}
